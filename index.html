@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Test Your Knowledge</title>
+</head>
+<body>
+    <div class="app">
+        <h1>Simple Quiz</h1>
+        <div id="startpage">
+            <h2>Select Category</h2>
+            <div id="subj">
+                <button class="categ" id="genKno" onclick="gkselect()">General Knowledge</button>
+                <button class="categ" id="geogr" onclick="geoselect()">Geography</button>
+                <button class="categ" id="hist" onclick="histselect()">History</button>
+                <button class="categ" id="sci" onclick="sciselect()">Science</button>
+                <button class="categ" id="apt" onclick="aptselect()">Aptitude</button>
+            </div>
+        </div>
+        <div class="quiz">
+            <h2 id="question"></h2>
+            <div id="ansbtn">
+                <!-- <button class="btn">Ans1</button>
+                <button class="btn">Ans2</button>
+                <button class="btn">Ans3</button>
+                <button class="btn">Ans4</button> -->
+            </div>
+            <button id="nextbtn">Next</button>
+            <button id="homebtn"><a href="index.html">Go Home</a></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
